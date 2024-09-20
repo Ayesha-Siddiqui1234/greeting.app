@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="border">
+            <h1>Greeting App</h1>
+            <div class="form-floating mb-3" style="margin: 2%;">
+                <input type="date" class="form-control" id="dobInput">
+                <label for="dobInput">Date Of Birth</label>
+            </div>
+
+            <div style="margin-top: 4%; margin: 2%;" class="form-floating">
+                <input type="date" class="form-control" id="currentInput">
+                <label for="currentInput">Current Date</label>
+            </div>
+        </div>
+
+        <button style="margin-top: 10px;" onclick="greetings()">Get Greeting</button>
+        <p id="displayContent"></p>
+    </div>
+
+    <div class="image-container">
+        <img src="./greeting1.jpg" alt="PC Image">
+    </div>
+
+   
+</body>
+<script src="./script.js"></script>
+</html>
